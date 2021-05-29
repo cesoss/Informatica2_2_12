@@ -14,7 +14,7 @@ typedef struct {
 } libro_t;
 
 ```
-
+[Ver video Organización Secuencial](https://youtu.be/xnTXMSQVCzY)
 ## Organización Directa de Archivos
 
 Los archivos de de Organización directa tienen un orden o *ID* que da su ubicación dentro del archivo. Estos archivos tienen la particularidad de permitir el acceso directo a un registro
@@ -24,12 +24,12 @@ Una estructura de datos directa es:
 typedef struct {
   long legajo;
   char nombre[30];
-  edad int;
+  int edad;
 
 } alumno_t;
 
 ```
-
+[Ver video Organización Directa](https://youtu.be/6lST8lXtxtk)
 ### Práctica Propuesta
 
 __Ejercicio 22__: Analizar y hacer los arreglos necesarios para que el *Ejercicio 19* sea un archivo de Organización directa.
