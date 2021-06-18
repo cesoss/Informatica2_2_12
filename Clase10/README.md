@@ -17,7 +17,7 @@ Contienen Claves y valores separados por un caracter definido por el programador
 
 ## Ventajas y diferencias
 
-En el caso de un archivo de configuración binario, el programa debe poder iniciar con una configuración genérica y darle al usuario la interfaz necesaria para poder modificar sus campos. Esto puede funcionar en aplicaciones de escritorio pero no tan bien si se desea usar en un sistema embebido. En un microcontrolador sería necesario un segundo programa de escritorio, para la generación del arhivo de configuración lo cual resulta poco práctico para el usuario.
+En el caso de un archivo de configuración binario, el programa debe poder iniciar con una configuración genérica y darle al usuario la interfaz necesaria para poder modificar sus campos. Esto puede funcionar en aplicaciones de escritorio pero no tan bien si se desea usar en un sistema embebido. En un microcontrolador sería necesario un segundo programa de escritorio, para la generación del archivo de configuración lo cual resulta poco práctico para el usuario.
 
 En el caso de los archivos de texto, el programa podría no iniciar en caso de no tener configuración, ya que no debería ser necesario para la generación del mismo. Al ser texto, puede ser generado con cualquier editor, lo que resulta muy práctico para el usuario.
 La lectura del archivo puede ser difícil de realizar, porque se deben interpretar las claves y los valores en cualquier orden de ingreso.
