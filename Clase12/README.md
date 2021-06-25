@@ -5,7 +5,7 @@ Se las representa por medio de un *diagrama de estados y transiciones*. Cada est
 
 En el sentido estricto una máquina de estado lee sus entradas y variables, evalua la condición en el estado que se encuentra y cambia de estado.
 
-![./recursos/fsmgenerica.png](https://github.com/DamRCorba/Informatica2_2_12/tree/master/Clase12/recursos/fsmgenerica.png)
+![./recursos/fsmgenerica.png](https://github.com/DamRCorba/Informatica2_2_12/blob/main/Clase12/recursos/fsmgenerica.png)
 
 Cada circulo representa un estado y cada flecha representa a una transición.
 
@@ -33,7 +33,7 @@ Primero el sistema calienta mientras que la temperatura sea menor a la configura
 
 ### Máquina de estado de Control de temperatura
 
- ![./recursos/fsmtemperatura.png](https://github.com/DamRCorba/Informatica2_2_12/tree/master/Clase12/recursos/fsmtemperatura.png)
+ ![./recursos/fsmtemperatura.png](https://github.com/DamRCorba/Informatica2_2_12/blob/main/Clase12/recursos/fsmtemperatura.png)
 
  - __SET__: Bandera de fin de inicialización
  - __t__: temperatura leida
